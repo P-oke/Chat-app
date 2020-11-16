@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <title>Login|page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Chatapp</h1>
+      </div>
+      <div class="main-content">
+        <form action="chat.html">
+          <div class="username">
+            <label for="username">Username</label><br />
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="enter your name..."
+              required
+            />
+          </div>
+
+          <div class="room">
+            <label for="room">Room</label><br />
+
+            <select name="room" id="room">
+              <option value="ROOM 1">ROOM 1</option>
+              <option value="ROOM 2">ROOM 2</option>
+              <option value="ROOM 3">ROOM 3</option>
+              <option value="ROOM 4">ROOM 4</option>
+            </select>
+          </div>
+
+          <button type="submit" id="btn"><i class="fas fa-sign-in-alt"></i> Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
